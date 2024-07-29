@@ -11,4 +11,5 @@ let printdetail = function prinfun(profession) {
 let newprintdetail=printdetail.bind(userdetails,"engineer");
 
 // console.log(newprintdetail);
-newprintdetail(); //invoke the funtion where u needed
+newprintdetail(); // funtion where u needed
+

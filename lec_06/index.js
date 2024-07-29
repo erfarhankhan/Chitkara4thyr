@@ -29,7 +29,7 @@
 //     age:19,
 //     profile:"softwere",
 //     printfun:function () { // bag
-//         console.log(this.name);
+//         console.log(this.name + this.age);
 //     }
 // }
 // userdetails.printfun();
@@ -38,7 +38,7 @@
 //     name: "john",
 //     age:10,
 //     profile:"softwere",
-  
+
 // } 
 // userdetails.printfun.call(userdetails2);
 
