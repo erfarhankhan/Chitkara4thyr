@@ -2,6 +2,7 @@ import React from 'react'
 import Product from './Product' // file come product.jsx
 
 const Shoppinglist = () => {
+    
     const pro = [   
         {
             id:'0',
@@ -20,7 +21,10 @@ const Shoppinglist = () => {
             name:"IPhone",
             imgUrl:"https://th.bing.com/th?id=OIP.VnxEHCdzMaHx7x69eqaO9QHaJ4&w=216&h=288&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
             price:'10000'
-        }
+        },
+     
+     
+      
     ]
   return (
  <>
@@ -37,4 +41,4 @@ const Shoppinglist = () => {
   )
 }
 
-export default Shoppinglist
+export default Shoppinglist 
